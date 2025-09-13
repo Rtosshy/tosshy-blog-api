@@ -1,9 +1,12 @@
 package main
 
 import (
+	"tosshy-blog-api/controller"
 	"tosshy-blog-api/db"
 	"tosshy-blog-api/repository"
 	"tosshy-blog-api/router"
+	"tosshy-blog-api/usecase"
+	"tosshy-blog-api/validator"
 )
 
 func main() {

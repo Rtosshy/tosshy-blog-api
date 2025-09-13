@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"ariga.io/atlas/sql/postgres"
 	"github.com/joho/godotenv"
-	"grom.io/gorm"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
 )
 
 func NewDB() *gorm.DB {
